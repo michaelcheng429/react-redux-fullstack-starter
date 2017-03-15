@@ -64,7 +64,7 @@ const mapStateToProps = createSelector(
 
 const mapActionsToProps = dispatch => ({
     onAddUser: addUser.request(dispatch),
-    onClickUser: changeSelectedUser,
+    onClickUser: blahtestconflict(changeSelectedUser),
     onGetUsers: getUsers.request(dispatch),
     onRemoveUser: removeUser.request(dispatch)
 });
